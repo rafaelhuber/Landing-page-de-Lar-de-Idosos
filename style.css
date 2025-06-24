@@ -314,8 +314,9 @@ section:nth-child(even) {
 .social-icon {
     display: flex;
     justify-content: center;
-    gap: 1rem;
-    margin-top: 2rem;
+    gap: 2rem;
+    margin-top: 1rem;
+
 }
 
 .social-media {
@@ -332,13 +333,6 @@ section:nth-child(even) {
     max-width: 600px;
     margin: 0 auto;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-    border-radius: 8px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
-    background-color: #F3F4F6;
     text-align: center;
 
 }
@@ -360,6 +354,13 @@ section:nth-child(even) {
     max-width: 30rem;
     height: 70px;
     width: 70px;
+}
+
+.social-icon-whatsapp img:hover {
+    max-width: 30rem;
+    height: 80px;
+    width: 80px;
+    filter: drop-shadow(10px 10px 7px rgba(0, 0, 0, 0.5));
 }
 
 .map-iframe {
@@ -413,8 +414,8 @@ footer {
     }
 
     .map-iframe {
-        width: 280px;
-        height: 210px;
+        width: 260px;
+        height: 200px;
         border: 0;
     }
 }

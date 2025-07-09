@@ -103,6 +103,9 @@ nav {
     padding: 1rem 2rem;
     max-width: 1200px;
     margin: 0 auto;
+    position: sticky;
+    z-index: 1000;
+
 }
 
 .logo {
@@ -262,6 +265,17 @@ section:nth-child(even) {
 }
 
 
+/* Como ajudar*/
+#como-ajudar {
+    background: #f0f4f8;
+    padding: 40px 20px;
+    text-align: center;
+    align-items: center;
+    padding: 100px;
+}
+
+
+
 
 /* Contact Section */
 .contact-content {
@@ -314,7 +328,7 @@ section:nth-child(even) {
 .social-icon {
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 2 rem;
     margin-top: 1rem;
 
 }
@@ -341,6 +355,8 @@ section:nth-child(even) {
     max-width: 30rem;
     height: 50px;
     width: 50px;
+    margin: 0 1rem;
+    filter: drop-shadow(10px 10px 7px rgba(0, 0, 0, 0.5));
 }
 
 .social-icon-whatsapp {
@@ -417,5 +433,9 @@ footer {
         width: 260px;
         height: 200px;
         border: 0;
+    }
+
+    #como-ajudar span {
+        display: none;
     }
 }
